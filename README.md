@@ -27,7 +27,7 @@ This is what you need in order to get started:
 
 ## How to get this running?
 
-1. Pick a machine which will host `dmiot2mqtt`. Without docker, it's recommended to create a new Python venv and run `pip3 install -r requeriments.txt` inside.
+1. Pick a machine which will host `dmiot2mqtt`. Without docker, it's recommended to create a new Python venv and run `pip3 install -r requirements.txt` inside.
 2. Create a DNS record which points `cloud1.dm-maker.com` to the IP of machine running `dmiot2mqtt`.
 3. Adjust the config file `dmiot2mqtt.ini` according to your needs.
 4. Run `dmiot2mqtt` service. Without docker, through `python3 dmiot2mqtt.py -c /path/to/dmiot2mqtt.ini`.
